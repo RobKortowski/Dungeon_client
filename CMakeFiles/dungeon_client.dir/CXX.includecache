@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rob/projects/Dungeon_client/src/main/sources/main.cpp
+iostream
+-
+string
+-
+thread
+-
+util/Settings.h
+/home/rob/projects/Dungeon_client/src/main/sources/util/Settings.h
+util/Dbg.h
+/home/rob/projects/Dungeon_client/src/main/sources/util/Dbg.h
+
+/home/rob/projects/Dungeon_client/src/main/sources/util/Dbg.cpp
+util/Dbg.h
+/home/rob/projects/Dungeon_client/src/main/sources/util/util/Dbg.h
+iostream
+-
+util/Settings.h
+/home/rob/projects/Dungeon_client/src/main/sources/util/util/Settings.h
+
+/home/rob/projects/Dungeon_client/src/main/sources/util/Settings.cpp
+util/Settings.h
+/home/rob/projects/Dungeon_client/src/main/sources/util/util/Settings.h
+
+src/main/headers/util/Dbg.h
+string
+-
+
+src/main/headers/util/Settings.h
+

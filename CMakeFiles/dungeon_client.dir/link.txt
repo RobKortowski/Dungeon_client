@@ -1,0 +1,1 @@
+/usr/bin/c++    -pthread -std=c++14 -Wall -Wfloat-conversion   CMakeFiles/dungeon_client.dir/src/main/sources/main.cpp.o CMakeFiles/dungeon_client.dir/src/main/sources/util/Dbg.cpp.o CMakeFiles/dungeon_client.dir/src/main/sources/util/Settings.cpp.o  -o bin/dungeon_client -rdynamic 
