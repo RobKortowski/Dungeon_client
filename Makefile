@@ -123,6 +123,33 @@ dungeon_client/fast:
 	$(MAKE) -f CMakeFiles/dungeon_client.dir/build.make CMakeFiles/dungeon_client.dir/build
 .PHONY : dungeon_client/fast
 
+src/main/sources/Connection.o: src/main/sources/Connection.cpp.o
+
+.PHONY : src/main/sources/Connection.o
+
+# target to build an object file
+src/main/sources/Connection.cpp.o:
+	$(MAKE) -f CMakeFiles/dungeon_client.dir/build.make CMakeFiles/dungeon_client.dir/src/main/sources/Connection.cpp.o
+.PHONY : src/main/sources/Connection.cpp.o
+
+src/main/sources/Connection.i: src/main/sources/Connection.cpp.i
+
+.PHONY : src/main/sources/Connection.i
+
+# target to preprocess a source file
+src/main/sources/Connection.cpp.i:
+	$(MAKE) -f CMakeFiles/dungeon_client.dir/build.make CMakeFiles/dungeon_client.dir/src/main/sources/Connection.cpp.i
+.PHONY : src/main/sources/Connection.cpp.i
+
+src/main/sources/Connection.s: src/main/sources/Connection.cpp.s
+
+.PHONY : src/main/sources/Connection.s
+
+# target to generate assembly for a file
+src/main/sources/Connection.cpp.s:
+	$(MAKE) -f CMakeFiles/dungeon_client.dir/build.make CMakeFiles/dungeon_client.dir/src/main/sources/Connection.cpp.s
+.PHONY : src/main/sources/Connection.cpp.s
+
 src/main/sources/main.o: src/main/sources/main.cpp.o
 
 .PHONY : src/main/sources/main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dungeon_client"
+	@echo "... src/main/sources/Connection.o"
+	@echo "... src/main/sources/Connection.i"
+	@echo "... src/main/sources/Connection.s"
 	@echo "... src/main/sources/main.o"
 	@echo "... src/main/sources/main.i"
 	@echo "... src/main/sources/main.s"

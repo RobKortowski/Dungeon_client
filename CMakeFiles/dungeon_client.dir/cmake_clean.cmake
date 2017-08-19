@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dungeon_client.dir/src/main/sources/main.cpp.o"
   "CMakeFiles/dungeon_client.dir/src/main/sources/util/Dbg.cpp.o"
   "CMakeFiles/dungeon_client.dir/src/main/sources/util/Settings.cpp.o"
+  "CMakeFiles/dungeon_client.dir/src/main/sources/Connection.cpp.o"
   "bin/dungeon_client.pdb"
   "bin/dungeon_client"
 )

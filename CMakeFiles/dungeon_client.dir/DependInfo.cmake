@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/rob/projects/Dungeon_client/src/main/sources/Connection.cpp" "/home/rob/projects/Dungeon_client/CMakeFiles/dungeon_client.dir/src/main/sources/Connection.cpp.o"
   "/home/rob/projects/Dungeon_client/src/main/sources/main.cpp" "/home/rob/projects/Dungeon_client/CMakeFiles/dungeon_client.dir/src/main/sources/main.cpp.o"
   "/home/rob/projects/Dungeon_client/src/main/sources/util/Dbg.cpp" "/home/rob/projects/Dungeon_client/CMakeFiles/dungeon_client.dir/src/main/sources/util/Dbg.cpp.o"
   "/home/rob/projects/Dungeon_client/src/main/sources/util/Settings.cpp" "/home/rob/projects/Dungeon_client/CMakeFiles/dungeon_client.dir/src/main/sources/util/Settings.cpp.o"
