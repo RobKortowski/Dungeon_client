@@ -54,8 +54,7 @@ private:
     /*determines whether msg has changed since last getMsg() call*/
     std::atomic<bool> newMsg;
 
-    struct sockaddr_in my_addr;
-    struct sockaddr_in their_addr;
+    struct sockaddr_in target_addr;
     int sin_size;
     int yes = 1;
     

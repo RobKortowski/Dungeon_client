@@ -20,10 +20,10 @@
 using namespace std;
 
 Connection::Connection(){
-    my_addr.sin_family = AF_INET; // filling up addres struct 
-    my_addr.sin_port = htons(MYPORT);
-    my_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
-    memset(&(my_addr.sin_zero), '\0', sizeof my_addr.sin_zero);
+    target_addr.sin_family = AF_INET; // filling up addres struct 
+    target_addr.sin_port = htons(MYPORT);
+    target_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+    memset(&(target_addr.sin_zero), '\0', sizeof target_addr.sin_zero);
     sin_size = sizeof (struct sockaddr_in);
 
 
@@ -31,8 +31,8 @@ Connection::Connection(){
     int new_socket;
  	new_socket = socket(PF_INET, SOCK_DGRAM, 0);
      //setsockopt(new_socket, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof (int));
-    //bind(new_socket, (struct sockaddr *) &my_addr, sizeof (struct sockaddr));
-	connect(new_socket, (struct sockaddr *) &my_addr, sin_size);
+    //bind(new_socket, (struct sockaddr *) &target_addr, sizeof (struct sockaddr));
+	connect(new_socket, (struct sockaddr *) &target_addr, sin_size);
     DBG::sig("Connection opened");    
     this->sockfd = new_socket;
 	this->ip = "test";
